@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<htmllang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <title>阿南高専 VR 体験ツアー</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    
+　　<link href="style.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/demo.css">
+        <link rel="stylesheet" href="css/fakeLoader.min.css">
+	<meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="//storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+    <style>
+      ul.carousel {
+        display: flex;
+        width: 720px;
+        margin: 20px auto;
+        padding: 0;
+        justify-content: center;
+        overflow: auto;
+      }
+
+       /* MOBILE */
+      @media screen and (max-width: 700px) {
+        ul.carousel {
+          width: 100%;
+          justify-content: flex-start;
+        }
+
+          ul.carousel li:first-child {
+            padding-left: 0;
+          }
+
+          ul.carousel li:last-child {
+            padding-right: 0;
+          }
+      }
+
+        ul.carousel li {
+          list-style: none;
+          margin: 0;
+          padding: 0 10px;
+          display: inline-block;
+        }
+          ul.carousel li a {
+            display: inline-block;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: #999;
+            text-decoration: none;
+          }
+            ul.carousel li a.current {
+              color: blue;
+              text-decoration: underline;
+            }
+            ul.carousel li a img {
+              width: 124px;
+              height: 80px;
+            }
+            ul.carousel li a small {
+              display: block;
+            }
+    </style>
+<div id="shadow">
+<div id="sotowaku">
+<div id="header">
+  </head>
+<div id="left">
+
+
+
+
+
+</div>
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, Popper.js, Bootstrap JSの順番に読み込む -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- ナビゲーションメニュー -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand text-dark" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ">
+                <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-dark" href="#skill">Member</a>
+                <a class="nav-link text-dark" href="#works">Works</a>
+                <a class="nav-link text-dark" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <h1>阿南高専VR体験ツアー</h1>
+    <h2>Welcome to Anan National College of Technology VR Tour</h2>
+    <p>阿南高専のVRツアーへようこそ。</p>
+    <p>本校には実験実習工場、図書館、高志会館(Yショップ)、学生食堂、フェニックス広場などキャンパスライフを充実させる施設が数多くあります。</p>
+    <p> また校舎は各コースごとに分かれており、それぞれの棟に専門知識を学ぶための研究室や実習室などが備わっています。このVRツアーで阿南高専のリアルな360パノラマを楽しんでみませんか。</p>
+   <h2>阿南高専コース</h2>
+機械コース<br>
+-------------<br>
+電気コース<br>
+-------------<br>
+情報コース<br>
+-------------<br>
+建設コース<br>
+-------------<br>
+化学コース<br>
+-------------<br>
+
+</div>
+    <div id="vrview"></div>
+    
+    <p>VRツアーをご覧になりたい場所を選択してください。</p>
+    
+    <ul class="carousel">
+      
+      <li>
+        <a href="#図書館">
+          <img src="fenix-small.jpg">
+          <small>フェニックス広場</small>
+        </a>
+      </li>
+      <li>
+        <a href="#教室">
+          <img src="classroom-small.jpg">
+          <small>教室</small>
+        </a>
+      </li>
+      <li>
+        <a href="#ないとー">
+          <img src="IMG_0968.jpg">
+          <small>ないとー</small>
+        </a>
+      </li>
+      <li>
+        <a href="#spot2">
+          <img src="spot2-small.jpg">
+          <small>spot2</small>
+        </a>
+      </li>
+      <li>
+        <a href="#spot3">
+          <img src="spot3-small.jpeg">
+          <small>spot3</small>
+        </a>
+      </li>
+    </ul>
+
+    <p>このVRツアーはオリジナル制作し、Google VR Viewのサービスを利用して配信しています。</p>
+    <p>関連リンク: <a href="https://www.anan-nct.ac.jp/">阿南高専ホームページ</a> , <a href="https://www.anan-nct.ac.jp/department/electric/">電気コース</a> , <a href="https://www.google.com/streetview/">Google Street View</a></p>
+
+    <script src="../../build/vrview.js"></script>
+
+    <script src="index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/fakeLoader.min.js"></script>
+        <div class="fakeLoader"></div>
+
+        <script>
+            $(document).ready(function () {
+                $.fakeLoader({
+                    bgColor: '#2ecc71',
+                    spinner:"spinner1"
+                });
+            });
+        </script>
+  </body>
+</html>
