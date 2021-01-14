@@ -1,0 +1,108 @@
+﻿@charset “UTF-8”;
+body {
+	margin:0px;
+	background-color:#ffffff;
+	color:#666666;
+  
+
+}
+img {
+	border:0;
+}
+
+#shadow {
+	width:820px;
+	background-image:url("img/shadow.jpg");
+	background-repeat:repeat-y;
+	margin-right:auto;
+	margin-left:auto;
+}
+#sotowaku {
+	width: 800px;
+	margin-right:auto;
+	margin-left:auto;
+	border-bottom:1px solid #eeeeee;
+}
+#header {
+	margin-bottom:10px;
+}
+#header p{
+	margin:0;
+	padding:0;
+}
+
+h2 {
+	margin:0px;
+	margin-bottom:10px;
+	font-size: 48px;
+	padding-left: 3px;
+	color:#C78E56;
+	border-bottom:1px solid #DEBA89;
+	
+	clear:both;
+}
+
+#left {
+	width:180px;
+	float:left;
+	margin-left:2px;
+}
+#left p{
+	margin:0;
+	padding:5px;
+	font-size:36px
+	color:#999;
+	line-height:120%;
+}
+#left h2 {
+	
+	margin-bottom:0px;
+	font-size: 14px;
+	padding-left: 3px;
+	color:#C78E56;
+	
+	border-bottom:1px solid #DEBA89;
+}
+
+
+
+#right {
+	width:600px;
+	float:right
+}
+.contents {
+	padding-right:10px;
+}
+.contents p {
+	margin:0;
+	color: #666666;
+	line-height:130%;
+	font-size:80%;
+	padding:5px
+}
+#footer{
+	clear:both;
+	text-align:center;
+	font-size:13px;
+	color: #999999;
+	margin-top:20px;
+	margin-right:10px ;
+	margin-left:10px;
+	border-top:1px dotted #ccc;
+}
+#footer a{
+	color:#999;
+	
+}
+#footer a:hover{
+	color:#963;
+	text-decoration:none;
+}
+
+.floatright{
+	float:right;	
+}
+.hidden_box {
+    margin: 2em 0;/*前後の余白*/
+    padding: 0;
+}
